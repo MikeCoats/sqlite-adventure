@@ -9,3 +9,6 @@ trim_trailing_whitespace = true
 [*.ddl, *.dml]
 indent_style = space
 indent_size = 2
+
+[p]
+insert_final_newline = false

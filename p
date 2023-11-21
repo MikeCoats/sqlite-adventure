@@ -1,3 +1,3 @@
 #!/bin/bash
-
-sqlite3 a <<< "select t from p where p = $1; select c from d where p = $1; select t, c from c where f = $1;"
+s=select;f=from;w=where
+sqlite3 a<<<"$s t $f p $w p=$1;$s c $f d $w p=$1;$s t,c $f c $w f=$1;"

@@ -29,6 +29,8 @@ was back in 2015 when a tweet wasn't 4000 characters, or even 280
 characters, but just 140 characters. By simply removing some of the
 syntactic sugar and renaming all columns, tables and databases to
 single characters, I've reduced the filesize to just 122 characters.
+Removing all unnecessary spaces and replacing repeated "long" strings
+with single character variables has brought it down to 106 characters.
 
 The user experience isn't as good as the "full fat" version, but it's
 still pretty playable.
