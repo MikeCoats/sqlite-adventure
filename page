@@ -1,0 +1,7 @@
+#!/bin/bash
+
+sqlite3 adventure.db <<< "select title from page where page_number = $1;"
+echo ""
+sqlite3 adventure.db <<< "select content from description where page_number = $1 order by line_number;"
+echo ""
+sqlite3 adventure.db <<< "select 'If you ' || caption || ', turn to page ' || to_page || '.' from choice where from_page = $1;"
