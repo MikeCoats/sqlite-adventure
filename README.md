@@ -1,5 +1,7 @@
 # SQLite Adventure
 
+![A screenshot of the result of running the command `./page 1`](page-1.png)
+
 ## Build
 
 ```sh
