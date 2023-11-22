@@ -1,4 +1,4 @@
-# SQLite Adventures
+# SQLite Adventure
 
 ## Build
 
