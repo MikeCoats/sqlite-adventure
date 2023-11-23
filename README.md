@@ -1,7 +1,7 @@
 # SQLite Adventure
 
 Nearly a decade ago, before the site formerly known as Twitter went to
-total ratshit, @edent published a choose-your-own-adventure game where
+total ratshit, [@edent](https://github.com/edent) published a choose-your-own-adventure game where
 Twitter was the game engine.
 
 This was perfect nerd-sniping bait. How far could you bend a common
