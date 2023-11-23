@@ -1,6 +1,13 @@
 # SQLite Adventure
 
-![A screenshot of the result of running the command `./page 1`](page-1.png)
+Nearly a decade ago, before the site formerly known as Twitter went to
+total ratshit, @edent published a choose-your-own-adventure game where
+Twitter was the game engine.
+
+This was perfect nerd-sniping bait. How far could you bend a common
+tool and use it to build a game? How small could a game engine be?
+
+Read more on [my blog](https://mikecoats.com/sqlite-adventure/).
 
 ## Build
 
@@ -14,15 +21,8 @@ $ ./build.sh
 $ ./page 1
 ```
 
-```
-Village Limits
-
-You stand at the edge of the forest, a path ahead leads to a small
-village. A sign reads “Preas Cnò - pop’n 73”.
-
-If you turn and enter the forest, turn to page 2.
-If you head into the village, turn to page 3.
-```
+![A screenshot of the result of running the command `./page
+1`](screenshot-page-1.png)
 
 ## Nerd Sniping
 
@@ -38,18 +38,18 @@ The user experience isn't as good as the "full fat" version, but it's
 still pretty playable.
 
 ```sh
+# Build the minimised version.
 $ ./b.sh
+
+# Turn the first page!
 $ ./p 1
 ```
 
-```
-Village Limits
-You stand at the edge of the forest, a path ahead leads to a small
-village. A sign reads “Preas Cnò - pop’n 73”.
-2|turn and enter the forest
-3|head into the village
-```
+![A screenshot of the result of running the command `./p
+1`](screenshot-p-1.png)
 
 ## License
 
-[SQLite Adventure](https://github.com/MikeCoats/sqlite-adventure) © 2023 by [Mike Coats](https://mikecoats.com/) is licensed under [CC BY 4.0](LICENSE.md).
+[SQLite Adventure](https://github.com/MikeCoats/sqlite-adventure) ©
+2023 by [Mike Coats](https://mikecoats.com/) is licensed under [CC BY
+4.0](LICENSE.md).
